@@ -11,11 +11,14 @@
 		52188D3E29AE607700095432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52188D3D29AE607700095432 /* ContentView.swift */; };
 		52188D4029AE609700095432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52188D3F29AE609700095432 /* Assets.xcassets */; };
 		52188D4329AE609700095432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52188D4229AE609700095432 /* Preview Assets.xcassets */; };
-		52188D4529AE609700095432 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52188D4429AE609700095432 /* Persistence.swift */; };
 		52188D4829AE609700095432 /* Week05.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52188D4629AE609700095432 /* Week05.xcdatamodeld */; };
 		52188D5229AE609900095432 /* Week05Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52188D5129AE609900095432 /* Week05Tests.swift */; };
 		52188D5C29AE609900095432 /* Week05UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52188D5B29AE609900095432 /* Week05UITests.swift */; };
 		52188D5E29AE609900095432 /* Week05UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52188D5D29AE609900095432 /* Week05UITestsLaunchTests.swift */; };
+		52188D6B29AE615800095432 /* BundleAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52188D6A29AE615800095432 /* BundleAudio.swift */; };
+		52188D7029AE622A00095432 /* 07 SR20DET.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52188D6D29AE622100095432 /* 07 SR20DET.mp3 */; };
+		52188D7129AE622A00095432 /* Why Try.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52188D6E29AE622500095432 /* Why Try.mp3 */; };
+		52188D7229AE622A00095432 /* Mother.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52188D6F29AE622A00095432 /* Mother.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +44,16 @@
 		52188D3D29AE607700095432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52188D3F29AE609700095432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52188D4229AE609700095432 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		52188D4429AE609700095432 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		52188D4729AE609700095432 /* Week05.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Week05.xcdatamodel; sourceTree = "<group>"; };
 		52188D4D29AE609900095432 /* Week05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week05Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52188D5129AE609900095432 /* Week05Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week05Tests.swift; sourceTree = "<group>"; };
 		52188D5729AE609900095432 /* Week05UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week05UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52188D5B29AE609900095432 /* Week05UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week05UITests.swift; sourceTree = "<group>"; };
 		52188D5D29AE609900095432 /* Week05UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week05UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52188D6A29AE615800095432 /* BundleAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleAudio.swift; sourceTree = "<group>"; };
+		52188D6D29AE622100095432 /* 07 SR20DET.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 SR20DET.mp3"; sourceTree = "<group>"; };
+		52188D6E29AE622500095432 /* Why Try.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Why Try.mp3"; sourceTree = "<group>"; };
+		52188D6F29AE622A00095432 /* Mother.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mother.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,10 @@
 			children = (
 				52188D3B29AE607700095432 /* Week05App.swift */,
 				52188D3D29AE607700095432 /* ContentView.swift */,
+				52188D6A29AE615800095432 /* BundleAudio.swift */,
 				52188D3F29AE609700095432 /* Assets.xcassets */,
-				52188D4429AE609700095432 /* Persistence.swift */,
 				52188D4629AE609700095432 /* Week05.xcdatamodeld */,
+				52188D6C29AE61D600095432 /* Resources */,
 				52188D4129AE609700095432 /* Preview Content */,
 			);
 			path = Week05;
@@ -131,6 +138,16 @@
 				52188D5D29AE609900095432 /* Week05UITestsLaunchTests.swift */,
 			);
 			path = Week05UITests;
+			sourceTree = "<group>";
+		};
+		52188D6C29AE61D600095432 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52188D6D29AE622100095432 /* 07 SR20DET.mp3 */,
+				52188D6F29AE622A00095432 /* Mother.mp3 */,
+				52188D6E29AE622500095432 /* Why Try.mp3 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52188D7229AE622A00095432 /* Mother.mp3 in Resources */,
+				52188D7129AE622A00095432 /* Why Try.mp3 in Resources */,
 				52188D4329AE609700095432 /* Preview Assets.xcassets in Resources */,
+				52188D7029AE622A00095432 /* 07 SR20DET.mp3 in Resources */,
 				52188D4029AE609700095432 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52188D4829AE609700095432 /* Week05.xcdatamodeld in Sources */,
-				52188D4529AE609700095432 /* Persistence.swift in Sources */,
 				52188D3E29AE607700095432 /* ContentView.swift in Sources */,
+				52188D6B29AE615800095432 /* BundleAudio.swift in Sources */,
 				52188D3C29AE607700095432 /* Week05App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
